@@ -10,7 +10,7 @@ import cv2
 
 @st.cache_resource
 def load_model():
-    model = keras.models.load_model("mnist_cnn.h5")
+    model = keras.models.load_model("mnist_cnn.keras")
     return model
 
 model = load_model()
